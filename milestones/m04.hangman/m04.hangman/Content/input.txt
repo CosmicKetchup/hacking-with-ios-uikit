@@ -1,0 +1,8 @@
+nvidia
+Gigabyte
+intel
+gskill
+nzxt
+corsair
+thermaltake
+coolermaster

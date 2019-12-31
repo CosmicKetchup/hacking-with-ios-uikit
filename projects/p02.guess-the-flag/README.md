@@ -1,0 +1,17 @@
+# Project 2: Guess the Flag
+
+[![](https://img.shields.io/badge/Hacking%20with%20iOS-2019.10.26-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.2-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.1-FA7343?logo=swift)](#)
+
+### Personal Notes
+- using enum `AlertType` with associated values, alongside discrete method for easily displaying corresponding alert and information
+- using the `didSet` property observer to update score label in navigation bar
+    - also, disabled user interaction on score label
+- using `UIStackView` for flags; axis depends on vertical size trait
+
+### Additional Challenges
+> 1. Try showing the player’s score in the navigation bar, alongside the flag to guess.
+> 2. Keep track of how many questions have been asked, and show one final alert controller after they have answered ten. This should show their final score.
+> 3. When someone chooses the wrong flag, tell them their mistake in your alert message – something like _“Wrong! That’s the flag of France.”_ for example.
+
+### Solution Preview
+<img src="https://user-images.githubusercontent.com/4438390/71426316-db454300-2675-11ea-84bc-1424904b0d5b.png">
