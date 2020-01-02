@@ -24,6 +24,7 @@
 5. **Collection Views and SpriteKit**
     - [Project 10: Names to Faces](/projects/p10.names-to-faces/)
     - [Project 11: Pachinko](/projects/p11.pachinko/)
+    - [Project 12: UserDefaults](/projects/p12.userdefaults/)
 
 <hr>
 

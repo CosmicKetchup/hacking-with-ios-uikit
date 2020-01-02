@@ -10,13 +10,23 @@ import UIKit
 
 final class StormTableViewController: UITableViewController {
     
+    private enum ViewMetrics {
+        static let cellTextLabelFont = UIFont.preferredFont(forTextStyle: .body)
+        static let cellDetailTextLabelFont = UIFont.preferredFont(forTextStyle: .footnote)
+    }
+    
     private let stormCellIdentifier = "StormCell"
-    private var stormFiles = [String]()
+    private var stormFiles = [Storm]()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: stormCellIdentifier)
         setupView()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        tableView.reloadData()
     }
     
     private func setupView() {
@@ -25,7 +35,7 @@ final class StormTableViewController: UITableViewController {
         navigationController?.navigationBar.prefersLargeTitles = true
         
         DispatchQueue.global(qos: .userInitiated).async { [weak self] in
-            self?.extractStormFiles()
+            self?.loadData()
         }
     }
     
@@ -34,32 +44,63 @@ final class StormTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: stormCellIdentifier, for: indexPath)
-        let stormFilename = stormFiles[indexPath.item]
-        cell.textLabel?.text = stormFilename
-        cell.textLabel?.font = .preferredFont(forTextStyle: .body)
+//        let cell = tableView.dequeueReusableCell(withIdentifier: stormCellIdentifier, for: indexPath)
+        let cell = UITableViewCell(style: .subtitle, reuseIdentifier: stormCellIdentifier)
+        let storm = stormFiles[indexPath.item]
+        
+        cell.textLabel?.text = storm.filename
+        cell.textLabel?.font = ViewMetrics.cellTextLabelFont
         cell.textLabel?.adjustsFontForContentSizeCategory = true
+        
+        cell.detailTextLabel?.text = "Total Views: \(storm.viewCount)"
+        cell.detailTextLabel?.font = ViewMetrics.cellDetailTextLabelFont
+        cell.detailTextLabel?.adjustsFontForContentSizeCategory = true
+        
         cell.accessoryType = .disclosureIndicator
         return cell
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let stormFilename = stormFiles[indexPath.item]
-        let detailVC = StormDetailViewController(file: stormFilename, metrics: (indexPath.item + 1, stormFiles.count))
+        let storm = stormFiles[indexPath.item]
+        storm.incrementViewCount()
+        let detailVC = StormDetailViewController(storm: storm, metrics: (num: indexPath.item + 1, of: stormFiles.count))
+        saveData()
         navigationController?.pushViewController(detailVC, animated: true)
     }
 }
     
 extension StormTableViewController {
+    fileprivate func saveData() {
+        let defaults = UserDefaults.standard
+        if let savedData = try? JSONEncoder().encode(stormFiles) {
+            defaults.set(savedData, forKey: "savedStorms")
+        }
+        else {
+            print("Unable to save storm data.")
+        }
+    }
+    
+    fileprivate func loadData() {
+        let defaults = UserDefaults.standard
+        guard let savedData = defaults.object(forKey: "savedStorms") as? Data else { extractStormFiles(); return }
+        
+        do {
+            stormFiles = try JSONDecoder().decode([Storm].self, from: savedData)
+            DispatchQueue.main.async { [weak self] in self?.tableView.reloadData() }
+        }
+        catch {
+            print("Failed to load saved storm data.")
+        }
+    }
+    
     fileprivate func extractStormFiles() {
         guard let rootPath = Bundle.main.resourcePath, let files = try? FileManager.default.contentsOfDirectory(atPath: rootPath) else { return }
         for file in files where file.hasPrefix("nssl") {
-            stormFiles.append(file)
+            let storm = Storm(filename: file)
+            stormFiles.append(storm)
         }
         
         stormFiles.sort()
-        DispatchQueue.main.async { [weak self] in
-            self?.tableView.reloadData()
-        }
+        DispatchQueue.main.async { [weak self] in self?.tableView.reloadData() }
     }
 }

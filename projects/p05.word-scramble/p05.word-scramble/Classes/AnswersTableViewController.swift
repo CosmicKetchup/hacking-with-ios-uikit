@@ -10,6 +10,9 @@ import UIKit
 
 final class AnswersTableViewController: UITableViewController {
     
+    private enum GameDataKey: String {
+        case sourceWord, guessedWords
+    }
     private let wordCellIdentifier = "WordCell"
     
     private var allWords = [String]()
@@ -24,7 +27,6 @@ final class AnswersTableViewController: UITableViewController {
         super.viewDidLoad()
         loadWords()
         setupView()
-        newGame()
     }
     
     private func setupView() {
@@ -44,29 +46,54 @@ final class AnswersTableViewController: UITableViewController {
         cell.textLabel?.text = guessedWord
         return cell
     }
-    
-    @objc private func newGame() {
+}
+
+extension AnswersTableViewController {
+    @objc fileprivate func newGame() {
         sourceWord = allWords.randomElement()
         guessedWords.removeAll(keepingCapacity: true)
+        saveData()
         tableView.reloadData()
     }
     
-    private func submitAnswer(_ answer: String) {
-        guard isLongEnough(answer) else { showBasicAlert(title: "Too Short", message: "Size really does matter."); return }
-        guard isPossible(answer) else { showBasicAlert(title: "Impossible Word", message: "You can only use letters in \(sourceWord.uppercased())."); return }
-        guard isOriginal(answer) else { showBasicAlert(title: "Duplicate Word", message: "You can't use the same word more than once!"); return }
-        guard isReal(answer) else { showBasicAlert(title: "Imaginary Word", message: "Well, you're just making stuff up now."); return }
-        
-        guessedWords.insert(answer, at: 0)
-        let indexPath = IndexPath(item: 0, section: 0)
-        tableView.insertRows(at: [indexPath], with: .automatic)
+    fileprivate func saveData() {
+        DispatchQueue.global(qos: .userInitiated).async { [weak self] in
+            guard let sourceWord = self?.sourceWord, let guessedWords = self?.guessedWords else { return }
+            let defaults = UserDefaults.standard
+            let encoder = JSONEncoder()
+            if let sourceWordData = try? encoder.encode(sourceWord), let guessedWordsData = try? encoder.encode(guessedWords) {
+                defaults.set(sourceWordData, forKey: GameDataKey.sourceWord.rawValue)
+                defaults.set(guessedWordsData, forKey: GameDataKey.guessedWords.rawValue)
+            }
+            else {
+                print("Failed to save existing game data.") // TODO: replace with alert notifying user of failure
+            }
+        }
     }
 
-    private func loadWords() {
+    fileprivate func loadWords() {
         guard let filepath = Bundle.main.url(forResource: "words", withExtension: "txt"),
             let rawData = try? String(contentsOf: filepath) else { fatalError("Unable to load words.") }
         allWords = rawData.components(separatedBy: "\n")
         assert(!allWords.isEmpty)
+        
+        let defaults = UserDefaults.standard
+        if let sourceWordData = defaults.object(forKey: GameDataKey.sourceWord.rawValue) as? Data,
+            let guessedWordsData = defaults.object(forKey: GameDataKey.guessedWords.rawValue) as? Data {
+            do {
+                let decoder = JSONDecoder()
+                sourceWord = try decoder.decode(String.self, from: sourceWordData)
+                guessedWords = try decoder.decode([String].self, from: guessedWordsData)
+                tableView.reloadData()
+            }
+            catch {
+                print("Unable to load saved word or answers.") // TODO: replace with alert notifying user of failure
+                newGame()
+            }
+        }
+        else { // saved values do not exist
+            newGame()
+        }
     }
     
     @objc private func promptForAnswer() {
@@ -83,6 +110,18 @@ final class AnswersTableViewController: UITableViewController {
         alert.addAction(submitAction)
         alert.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         present(alert, animated: true)
+    }
+    
+    private func submitAnswer(_ answer: String) {
+        guard isLongEnough(answer) else { showAlert(title: "Too Short", message: "Size really does matter."); return }
+        guard isPossible(answer) else { showAlert(title: "Impossible Word", message: "You can only use letters in \(sourceWord.uppercased())."); return }
+        guard isOriginal(answer) else { showAlert(title: "Duplicate Word", message: "You can't use the same word more than once!"); return }
+        guard isReal(answer) else { showAlert(title: "Imaginary Word", message: "Well, you're just making stuff up now."); return }
+        
+        guessedWords.insert(answer, at: 0)
+        saveData()
+        let indexPath = IndexPath(item: 0, section: 0)
+        tableView.insertRows(at: [indexPath], with: .automatic)
     }
     
     private func isLongEnough(_ answer: String) -> Bool {
@@ -110,7 +149,7 @@ final class AnswersTableViewController: UITableViewController {
         return misspelledRange.location == NSNotFound
     }
     
-    private func showBasicAlert(title: String?, message: String?) {
+    private func showAlert(title: String?, message: String?) {
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "OK", style: .default))
         present(alert, animated: true)

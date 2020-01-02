@@ -28,6 +28,7 @@ final class FlagViewController: UIViewController {
     private var correctAnswerTag: Int!
     private var totalQuestions = 0
     
+    private var highScore: Int!
     private var userScore = 0 {
         didSet {
             navigationItem.rightBarButtonItem?.title = "Score: \(userScore)"
@@ -49,8 +50,9 @@ final class FlagViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        loadHighScore()
         setupView()
-        newFlagQuestion()
+        newGame()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -63,6 +65,20 @@ final class FlagViewController: UIViewController {
         if traitCollection != previousTraitCollection {
             adjustStackView(for: traitCollection)
         }
+    }
+    
+    private func loadHighScore() {
+        let defaults = UserDefaults.standard
+        var savedHighScore: Int?
+        if let savedData = defaults.object(forKey: "highScore") as? Data {
+            do {
+                savedHighScore = try JSONDecoder().decode(Int.self, from: savedData)
+            }
+            catch {
+                print("Unable to load previous high score.")
+            }
+        }
+        highScore = savedHighScore ?? 0
     }
     
     private func setupView() {
@@ -98,14 +114,19 @@ extension FlagViewController {
             alert = AlertType.correctAnswer(score: userScore).alert
         }
         else {
-            userScore -= 1
+            userScore -= (userScore > 0) ? 1 : 0
             let userAnswer = presentedCountries[sender.tag]
             alert = AlertType.wrongAnswer(selectedCountry: userAnswer).alert
         }
         
         alert.addAction(UIAlertAction(title: "OK", style: .default) { [weak self] _ in
             guard let self = self else { return }
-            self.totalQuestions < 10 ? self.newFlagQuestion() : self.showGameOverAlert()
+            if self.totalQuestions < 10 {
+                self.newFlagQuestion()
+            }
+            else {
+                self.userScore > self.highScore ? self.showNewHighScoreAlert() : self.showGameOverAlert()
+            }
         })
         present(alert, animated: true)
     }
@@ -124,12 +145,32 @@ extension FlagViewController {
     
     private func showGameOverAlert() {
         let alert = AlertType.gameOver(score: userScore).alert
-        alert.addAction(UIAlertAction(title: "Try Again", style: .default) { [weak self] _ in
-            self?.totalQuestions = 0
-            self?.userScore = 0
-            self?.newFlagQuestion()
-        })
+        alert.addAction(UIAlertAction(title: "Try Again", style: .default, handler: newGame))
         present(alert, animated: true)
+    }
+    
+    private func showNewHighScoreAlert() {
+        DispatchQueue.global(qos: .utility).async { [weak self] in self?.saveData() }
+        
+        let alert = AlertType.highScore(score: userScore).alert
+        alert.addAction(UIAlertAction(title: "OK", style: .default, handler: newGame))
+        present(alert, animated: true)
+    }
+    
+    private func newGame(_ action: UIAlertAction? = nil) {
+        totalQuestions = 0
+        userScore = 0
+        newFlagQuestion()
+    }
+    
+    private func saveData() {
+        let defaults = UserDefaults.standard
+        if let savedData = try? JSONEncoder().encode(userScore) {
+            defaults.set(savedData, forKey: "highScore")
+        }
+        else {
+            print("Failed to save high score.")
+        }
     }
 }
 
