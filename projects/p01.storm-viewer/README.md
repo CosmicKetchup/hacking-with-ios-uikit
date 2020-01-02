@@ -13,7 +13,10 @@
 - removed **"Back"** text from navigation controller when viewing image detail
     - this is configured on **source** view controller (e.g. `StormTableViewController`)
     - `navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)`
-- allowing dynamic user-adjusted font size for challenge #1
+- table cells honor dynamic user-defined font size
+- updated for project 12 challenges
+    - tracks total views for each image via `UserDefaults`
+    - displays updated total in cell `detailTextLabel`
 
 ### Additional Challenges
 > 1. Use **Interface Builder** to select the text label inside your table view cell and adjust its font size to something larger – experiment and see what looks good.
@@ -21,4 +24,4 @@
 > 3. Rather than show image names in the detail title bar, show **Picture X of Y**, where **Y** is the total number of images and **X** is the selected picture’s position in the array. Make sure you count from `1` rather than `0`.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71426175-ebf4b980-2673-11ea-9492-adff88aa80a6.png">
+<img src="https://user-images.githubusercontent.com/4438390/71638832-98b4d500-2c38-11ea-97f0-702c80fd98db.png">

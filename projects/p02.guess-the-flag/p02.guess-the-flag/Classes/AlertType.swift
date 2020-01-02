@@ -12,6 +12,7 @@ enum AlertType {
     case gameOver(score: Int)
     case correctAnswer(score: Int)
     case wrongAnswer(selectedCountry: Country)
+    case highScore(score: Int)
     
     private var title: String? {
         switch self {
@@ -23,16 +24,23 @@ enum AlertType {
             
         case .wrongAnswer(_):
             return "Wrong"
+            
+        case .highScore(_):
+            return "New High Score"
         }
     }
     
     private var message: String? {
         switch self {
-        case .gameOver(let userScore):
-            return userScore != 1 ? "You finished with \(userScore) points." : "You finished with 1 point."
+        case .gameOver(let userScore), .highScore(let userScore):
+            return (userScore != 1)
+                ? "You finished with \(userScore) points."
+                : "You finished with 1 point."
             
         case .correctAnswer(let userScore):
-            return userScore != 1 ? "You now have \(userScore) points." : "You now have 1 point."
+            return (userScore != 1)
+                ? "You now have \(userScore) points."
+                : "You now have 1 point."
             
         case .wrongAnswer(let selectedCountry):
             return "That is the flag of \(selectedCountry.formalName)."

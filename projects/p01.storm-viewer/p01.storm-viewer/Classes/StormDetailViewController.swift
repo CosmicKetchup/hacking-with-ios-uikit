@@ -8,7 +8,7 @@
 
 import UIKit
 
-class StormDetailViewController: UIViewController {
+final class StormDetailViewController: UIViewController {
     
     private enum ViewMetrics {
         static let backgroundColor = UIColor.lightGray
@@ -18,20 +18,20 @@ class StormDetailViewController: UIViewController {
         navigationController?.hidesBarsOnTap ?? false
     }
     
-    private var selectedStorm: String
+    private var selectedStorm: Storm
     private var fileIndex: Int
     private var totalCount: Int
     
     private lazy var stormView: UIImageView = {
         let view = UIImageView()
         view.translatesAutoresizingMaskIntoConstraints = false
-        view.image = UIImage(named: selectedStorm)
+        view.image = UIImage(named: selectedStorm.filename)
         view.contentMode = .scaleAspectFit
         return view
     }()
     
-    init(file stormFilename: String, metrics: (Int, Int)) {
-        self.selectedStorm = stormFilename
+    init(storm: Storm, metrics: (num: Int, of: Int)) {
+        self.selectedStorm = storm
         (self.fileIndex, self.totalCount) = metrics
         super.init(nibName: nil, bundle: nil)
     }
