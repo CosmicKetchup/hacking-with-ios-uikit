@@ -2,29 +2,70 @@
 
 [![](https://img.shields.io/badge/Hacking%20with%20iOS-2019.10.26-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.2-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.1-FA7343?logo=swift)](#)
 
-### Index / Curriculum
+### Curriculum
 
 1. **Introduction to Swift**
-    - [Milestone 1: Fizz Buzz](/milestones/m01.fizz-buzz/)
+    - [x] [Milestone 1: Fizz Buzz](/milestones/m01.fizz-buzz/)
 2. **Welcome to UIKit**
-    - [Project 1: Storm Viewer](/projects/p01.storm-viewer/)
-    - [Project 2: Guess the Flag](/projects/p02.guess-the-flag/)
-    - [Project 3: Social Media](/projects/p03.social-media/)
-    - [Milestone 2: World Flags](/milestones/m02.world-flags/)
+    - [x] [Project 1: Storm Viewer](/projects/p01.storm-viewer/)
+    - [x] [Project 2: Guess the Flag](/projects/p02.guess-the-flag/)
+    - [x] [Project 3: Social Media](/projects/p03.social-media/)
+    - [x] [Milestone 2: World Flags](/milestones/m02.world-flags/)
 3. **Webkit and Closures**
-    - [Project 4: Easy Browser](/projects/p04.easy-browser/)
-    - [Project 5: Word Scramble](/projects/p05.word-scramble/)
-    - [Project 6: Auto Layout](/projects/p06.auto-layout/)
-    - [Milestone 3: Shopping List](/milestones/m03.shopping-list/)
+    - [x] [Project 4: Easy Browser](/projects/p04.easy-browser/)
+    - [x] [Project 5: Word Scramble](/projects/p05.word-scramble/)
+    - [x] [Project 6: Auto Layout](/projects/p06.auto-layout/)
+    - [x] [Milestone 3: Shopping List](/milestones/m03.shopping-list/)
 4. **JSON and GCD**
-    - [Project 7: Whitehouse Petitions](/projects/p07.whitehouse-petitions/)
-    - [Project 8: 7 Swifty Words](/projects/p08.7-swifty-words/)
-    - [Project 9: Grand Central Dispatch](/projects/p09.grand-central-dispatch/)
-    - [Milestone 4: Hangman](/milestones/m04.hangman/)
+    - [x] [Project 7: Whitehouse Petitions](/projects/p07.whitehouse-petitions/)
+    - [x] [Project 8: 7 Swifty Words](/projects/p08.7-swifty-words/)
+    - [x] [Project 9: Grand Central Dispatch](/projects/p09.grand-central-dispatch/)
+    - [x] [Milestone 4: Hangman](/milestones/m04.hangman/)
 5. **Collection Views and SpriteKit**
-    - [Project 10: Names to Faces](/projects/p10.names-to-faces/)
-    - [Project 11: Pachinko](/projects/p11.pachinko/)
-    - [Project 12: UserDefaults](/projects/p12.userdefaults/)
+    - [x] [Project 10: Names to Faces](/projects/p10.names-to-faces/)
+    - [x] [Project 11: Pachinko](/projects/p11.pachinko/)
+    - [x] [Project 12: UserDefaults](/projects/p12.userdefaults/)
+    - [ ] [Milestone 5: Photo Journal](#)
+6. **Core Image and Core Animation**
+    - [ ] [Project 13: Instafilter](#)
+    - [ ] [Project 14: Whack-a-Penguin](#)
+    - [ ] [Project 15: Animation](#)
+    - [ ] [Milestone 6: Country Facts](#)
+7. **Extensions and Debugging**
+    - [ ] [Project 16: Capital Cities](#)
+    - [ ] [Project 17: Space Race](#)
+    - [ ] [Project 18: Debugging](#)
+    - [ ] [Milestone 7: Target Practice](#)
+8. **Maps and Notifications**
+    - [ ] [Project 19: JavaScript Injection](#)
+    - [ ] [Project 20: Fireworks Night](#)
+    - [ ] [Project 21: Local Notifications](#)
+    - [ ] [Milestone 8: Notes-ish](#)
+9. **Beacons and Extensions**
+    - [ ] [Project 22: Detect-a-Beacon](#)
+    - [ ] [Project 23: Swifty Ninja](#)
+    - [ ] [Project 24: Swift Strings](#)
+    - [ ] [Milestone 9: Custom Extensions](#)
+10. **Core Motion and Core Graphics**
+    - [ ] [Project 25: Selfie Share](#)
+    - [ ] [Project 26: Marble Maze](#)
+    - [ ] [Project 27: Core Graphics](#)
+    - [ ] [Milestone 10: Meme Generator](#)
+11. **Secrets and Explosions**
+    - [ ] [Project 28: Secret Swift](#)
+    - [ ] [Project 29: Exploding Monkeys](#)
+    - [ ] [Project 30: Instruments](#)
+    - [ ] [Milestone 11: Matchfinder](#)
+12. **Additional Content**
+    - [ ] [Project 31: Multibrowser](#)
+    - [ ] [Project 32: SwiftSearcher](#)
+    - [ ] [Project 33: What's that Whistle?](#)
+    - [ ] [Project 34: Four in a Row](#)
+    - [ ] [Project 35: Random Numbers](#)
+    - [ ] [Project 36: Crashy Plane](#)
+    - [ ] [Project 37: Psychic Tester](#)
+    - [ ] [Project 38: GitHub Commits](#)
+    - [ ] [Project 39: Unit Testing](#)
 
 <hr>
 
