@@ -14,9 +14,8 @@
     - this is configured on **source** view controller (e.g. `StormTableViewController`)
     - `navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)`
 - table cells honor dynamic user-defined font size
-- updated for project 12 challenges
-    - tracks total views for each image via `UserDefaults`
-    - displays updated total in cell `detailTextLabel`
+- tracks total views for each image via `UserDefaults`
+- displays updated total in cell `detailTextLabel`
 
 ### Additional Challenges
 > 1. Use **Interface Builder** to select the text label inside your table view cell and adjust its font size to something larger – experiment and see what looks good.
