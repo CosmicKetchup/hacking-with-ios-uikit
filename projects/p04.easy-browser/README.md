@@ -12,8 +12,8 @@
 
 ### Additional Challenges
 > 1. If users try to visit a URL that isn’t allowed, show an alert saying it’s blocked.
-> 2. Try making two new toolbar items with the titles Back and Forward. You should make them use webView.goBack and webView.goForward.
-> 3. For more of a challenge, try changing the initial view controller to a table view like in project 1, where users can choose their website from a list rather than just having the first in the array loaded up front.
+> 2. Try making two new toolbar items with the titles Back and Forward. You should make them use `webView.goBack` and `webView.goForward`.
+> 3. For more of a challenge, try changing the initial view controller to a table view like in [**project 1**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p01.storm-viewer/), where users can choose their website from a list rather than just having the first in the array loaded up front.
 
 ### Solution Preview
 <img src="https://user-images.githubusercontent.com/4438390/71426765-ea7bbf00-267c-11ea-97f0-a4ffb731b976.png">

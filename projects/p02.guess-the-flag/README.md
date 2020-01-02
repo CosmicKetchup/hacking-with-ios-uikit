@@ -7,9 +7,8 @@
 - using the `didSet` property observer to update score label in navigation bar
     - also, disabled user interaction on score label
 - using `UIStackView` for flags; axis depends on vertical size trait
-- updated for project 12 challenges
-    - tracks running high score for players in `UserDefaults`
-    - displays special alert if user completes game with new high score
+- tracks running high score for players in `UserDefaults`
+- displays special alert if user completes game with new high score
 
 ### Additional Challenges
 > 1. Try showing the player’s score in the navigation bar, alongside the flag to guess.
