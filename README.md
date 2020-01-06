@@ -25,7 +25,7 @@
     - [x] [Project 10: Names to Faces](/projects/p10.names-to-faces/)
     - [x] [Project 11: Pachinko](/projects/p11.pachinko/)
     - [x] [Project 12: UserDefaults](/projects/p12.userdefaults/)
-    - [ ] [Milestone 5: Photo Journal](#)
+    - [x] [Milestone 5: Photo Journal](/milestones/m05.photo-journal/)
 6. **Core Image and Core Animation**
     - [ ] [Project 13: Instafilter](#)
     - [ ] [Project 14: Whack-a-Penguin](#)
