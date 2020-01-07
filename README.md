@@ -27,7 +27,7 @@
     - [x] [Project 12: UserDefaults](/projects/p12.userdefaults/)
     - [x] [Milestone 5: Photo Journal](/milestones/m05.photo-journal/)
 6. **Core Image and Core Animation**
-    - [ ] [Project 13: Instafilter](#)
+    - [x] [Project 13: Instafilter](/projects/p13.instafilter/)
     - [ ] [Project 14: Whack-a-Penguin](#)
     - [ ] [Project 15: Animation](#)
     - [ ] [Milestone 6: Country Facts](#)
