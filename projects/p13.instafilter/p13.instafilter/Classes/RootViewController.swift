@@ -140,10 +140,12 @@ class RootViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         guard let selectedImage = info[.editedImage] as? UIImage else { return }
+        UIView.animate(withDuration: 0.75) { [weak self] in self?.previewImageView.alpha = 0.0 }
         dismiss(animated: true)
         currentFilter.setValue(CIImage(image: selectedImage), forKey: kCIInputImageKey)
         currentImage = selectedImage
         applyProcessing()
+        UIView.animate(withDuration: 1.25) { [weak self] in self?.previewImageView.alpha = 1.0 }
     }
     
     @objc fileprivate func image(_ image: UIImage, didFinishSavingWithError error: Error?, contextInfo: UnsafeRawPointer?) {
