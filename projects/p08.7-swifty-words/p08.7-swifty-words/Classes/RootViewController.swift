@@ -182,7 +182,7 @@ final class RootViewController: UIViewController {
         guard let buttonTitle = sender.titleLabel?.text else { return }
         answerTextField.text = answerTextField.text?.appending(buttonTitle)
         activatedButtons.append(sender)
-        sender.isHidden = true
+        UIView.animate(withDuration: 0.3) { sender.alpha = 0.0 }
     }
     
     @objc private func submitButtonTapped(_ sender: UIButton) {
@@ -217,7 +217,7 @@ final class RootViewController: UIViewController {
     
     @objc private func clearButtonTapped(_ sender: UIButton) {
         answerTextField.text = ""
-        activatedButtons.forEach({ $0.isHidden = false })
+        activatedButtons.forEach({ $0.alpha = 1.0 })
         activatedButtons.removeAll()
     }
     
@@ -225,7 +225,7 @@ final class RootViewController: UIViewController {
         level += 1
         solutions.removeAll(keepingCapacity: true)
         loadLevel()
-        buttonMapButtons.forEach({ $0.isHidden = false })
+        buttonMapButtons.forEach({ $0.alpha = 1.0 })
     }
 }
 

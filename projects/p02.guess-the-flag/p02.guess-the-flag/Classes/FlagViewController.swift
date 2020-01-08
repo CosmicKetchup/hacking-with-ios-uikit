@@ -106,16 +106,24 @@ extension FlagViewController {
         flagStack.axis = traitCollection.verticalSizeClass == .compact ? .horizontal : .vertical
     }
     
-    @objc fileprivate func flagTapped(_ sender: UIButton) {
+    @objc fileprivate func flagTapped(_ button: UIButton) {
         var alert: UIAlertController!
         
-        if sender.tag == correctAnswerTag {
+        UIView.animate(withDuration: 0.05, animations: {
+            button.transform = CGAffineTransform(scaleX: 0.85, y: 0.85)
+        }) { _ in
+            UIView.animate(withDuration: 0.5, delay: 0, usingSpringWithDamping: 0.25, initialSpringVelocity: 20, options: [], animations: {
+                button.transform = .identity
+            }, completion: nil)
+        }
+        
+        if button.tag == correctAnswerTag {
             userScore += 1
             alert = AlertType.correctAnswer(score: userScore).alert
         }
         else {
             userScore -= (userScore > 0) ? 1 : 0
-            let userAnswer = presentedCountries[sender.tag]
+            let userAnswer = presentedCountries[button.tag]
             alert = AlertType.wrongAnswer(selectedCountry: userAnswer).alert
         }
         
@@ -135,6 +143,7 @@ extension FlagViewController {
         totalQuestions += 1
         presentedCountries = Country.allCases.shuffled()
         [topFlag, midFlag, botFlag].enumerated().forEach { (index, button) in
+//            button.transform = .identity
             let targetFlag = UIImage(named: presentedCountries[index].rawValue)
             button.setImage(targetFlag, for: .normal)
         }

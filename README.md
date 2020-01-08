@@ -29,7 +29,7 @@
 6. **Core Image and Core Animation**
     - [x] [Project 13: Instafilter](/projects/p13.instafilter/)
     - [x] [Project 14: Whack-a-Penguin](/projects/p14.whack-a-penguin/)
-    - [ ] [Project 15: Animation](#)
+    - [x] [Project 15: Animation](/projects/p15.animation/)
     - [ ] [Milestone 6: Country Facts](#)
 7. **Extensions and Debugging**
     - [ ] [Project 16: Capital Cities](#)
