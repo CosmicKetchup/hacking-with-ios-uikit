@@ -30,7 +30,7 @@
     - [x] [Project 13: Instafilter](/projects/p13.instafilter/)
     - [x] [Project 14: Whack-a-Penguin](/projects/p14.whack-a-penguin/)
     - [x] [Project 15: Animation](/projects/p15.animation/)
-    - [ ] [Milestone 6: Country Facts](#)
+    - [x] [Milestone 6: Country Facts](/milestones/m06.country-facts/)
 7. **Extensions and Debugging**
     - [ ] [Project 16: Capital Cities](#)
     - [ ] [Project 17: Space Race](#)
