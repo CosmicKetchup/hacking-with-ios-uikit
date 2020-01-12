@@ -32,7 +32,7 @@
     - [x] [Project 15: Animation](/projects/p15.animation/)
     - [x] [Milestone 6: Country Facts](/milestones/m06.country-facts/)
 7. **Extensions and Debugging**
-    - [ ] [Project 16: Capital Cities](#)
+    - [x] [Project 16: Capital Cities](/projects/p16.capital-cities/)
     - [ ] [Project 17: Space Race](#)
     - [ ] [Project 18: Debugging](#)
     - [ ] [Milestone 7: Target Practice](#)
