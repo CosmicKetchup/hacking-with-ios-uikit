@@ -33,7 +33,7 @@
     - [x] [Milestone 6: Country Facts](/milestones/m06.country-facts/)
 7. **Extensions and Debugging**
     - [x] [Project 16: Capital Cities](/projects/p16.capital-cities/)
-    - [ ] [Project 17: Space Race](#)
+    - [x] [Project 17: Space Race](/projects/p17.space-race/)
     - [ ] [Project 18: Debugging](#)
     - [ ] [Milestone 7: Target Practice](#)
 8. **Maps and Notifications**
