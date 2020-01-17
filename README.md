@@ -35,7 +35,7 @@
     - [x] [Project 16: Capital Cities](/projects/p16.capital-cities/)
     - [x] [Project 17: Space Race](/projects/p17.space-race/)
     - [x] [Project 18: Debugging](/projects/p18.debugging/)
-    - [ ] [Milestone 7: Target Practice](#)
+    - [x] [Milestone 7: Target Practice](/milestones/m07.target-practice/)
 8. **Maps and Notifications**
     - [ ] [Project 19: JavaScript Injection](#)
     - [ ] [Project 20: Fireworks Night](#)
