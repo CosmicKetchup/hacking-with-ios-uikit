@@ -37,7 +37,7 @@
     - [x] [Project 18: Debugging](/projects/p18.debugging/)
     - [x] [Milestone 7: Target Practice](/milestones/m07.target-practice/)
 8. **Maps and Notifications**
-    - [ ] [Project 19: JavaScript Injection](#)
+    - [x] [Project 19: JavaScript Injection](/projects/p19.javascript-injection/)
     - [ ] [Project 20: Fireworks Night](#)
     - [ ] [Project 21: Local Notifications](#)
     - [ ] [Milestone 8: Notes-ish](#)
