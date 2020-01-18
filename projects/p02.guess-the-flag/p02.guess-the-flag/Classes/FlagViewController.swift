@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import UserNotifications
 
 final class FlagViewController: UIViewController {
     
@@ -53,11 +54,17 @@ final class FlagViewController: UIViewController {
         loadHighScore()
         setupView()
         newGame()
+        registerLocal()
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         adjustStackView(for: traitCollection)
+        NotificationCenter.default.addObserver(self, selector: #selector(viewWillEnterForeground), name: UIApplication.willEnterForegroundNotification, object: nil)
+    }
+    
+    @objc private func viewWillEnterForeground() {
+        scheduleLocal()
     }
     
     override func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
@@ -180,6 +187,43 @@ extension FlagViewController {
         else {
             print("Failed to save high score.")
         }
+    }
+}
+
+// MARK: - Local Notifications
+extension FlagViewController {
+    fileprivate func registerLocal() {
+        let center = UNUserNotificationCenter.current()
+        center.requestAuthorization(options: [.alert, .badge, .sound]) { [weak self] (granted, error) in
+            if granted {
+                self?.scheduleLocal()
+            }
+            else {
+                print("That's not right.")
+            }
+        }
+    }
+    
+    fileprivate func scheduleLocal() {
+        let center = UNUserNotificationCenter.current()
+        center.removeAllPendingNotificationRequests()
+        center.removeAllDeliveredNotifications()
+        
+        let content = UNMutableNotificationContent()
+        content.title = "Test Your Flag Knowledge"
+        content.body = "Train again to move this information into your brain's long-term storage!"
+        content.categoryIdentifier = "alarm"
+        content.sound = .none
+        
+        func thisWeeksRequests() -> [UNNotificationRequest] {
+            let dayLength = 5 // 86400
+            let triggers = (1...7)
+                .compactMap { UNTimeIntervalNotificationTrigger(timeInterval: TimeInterval(exactly: dayLength * $0)!, repeats: false) }
+                .map { UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: $0) }
+            return triggers
+        }
+        
+        thisWeeksRequests().forEach { center.add($0) }
     }
 }
 

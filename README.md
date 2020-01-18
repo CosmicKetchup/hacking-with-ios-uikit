@@ -39,7 +39,7 @@
 8. **Maps and Notifications**
     - [x] [Project 19: JavaScript Injection](/projects/p19.javascript-injection/)
     - [x] [Project 20: Fireworks Night](/projects/p20.fireworks-night/)
-    - [ ] [Project 21: Local Notifications](#)
+    - [x] [Project 21: Local Notifications](/projects/p21.local-notifications)
     - [ ] [Milestone 8: Notes-ish](#)
 9. **Beacons and Extensions**
     - [ ] [Project 22: Detect-a-Beacon](#)
