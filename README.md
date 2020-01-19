@@ -40,7 +40,7 @@
     - [x] [Project 19: JavaScript Injection](/projects/p19.javascript-injection/)
     - [x] [Project 20: Fireworks Night](/projects/p20.fireworks-night/)
     - [x] [Project 21: Local Notifications](/projects/p21.local-notifications)
-    - [ ] [Milestone 8: Notes-ish](#)
+    - [x] [Milestone 8: Notes-ish](/milestones/m08.notes-ish/)
 9. **Beacons and Extensions**
     - [ ] [Project 22: Detect-a-Beacon](#)
     - [ ] [Project 23: Swifty Ninja](#)
