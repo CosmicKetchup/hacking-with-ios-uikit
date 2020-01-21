@@ -42,7 +42,7 @@
     - [x] [Project 21: Local Notifications](/projects/p21.local-notifications)
     - [x] [Milestone 8: Notes-ish](/milestones/m08.notes-ish/)
 9. **Beacons and Extensions**
-    - [ ] [Project 22: Detect-a-Beacon](#)
+    - [x] [Project 22: Detect-a-Beacon](/projects/p22.detect-a-beacon/)
     - [ ] [Project 23: Swifty Ninja](#)
     - [ ] [Project 24: Swift Strings](#)
     - [ ] [Milestone 9: Custom Extensions](#)
