@@ -43,7 +43,7 @@
     - [x] [Milestone 8: Notes-ish](/milestones/m08.notes-ish/)
 9. **Beacons and Extensions**
     - [x] [Project 22: Detect-a-Beacon](/projects/p22.detect-a-beacon/)
-    - [ ] [Project 23: Swifty Ninja](#)
+    - [x] [Project 23: Swifty Ninja](/projects/p23.swifty-ninja/)
     - [ ] [Project 24: Swift Strings](#)
     - [ ] [Milestone 9: Custom Extensions](#)
 10. **Core Motion and Core Graphics**
