@@ -45,7 +45,7 @@
     - [x] [Project 22: Detect-a-Beacon](/projects/p22.detect-a-beacon/)
     - [x] [Project 23: Swifty Ninja](/projects/p23.swifty-ninja/)
     - [x] [Project 24: Swift Strings](/projects/p24.swift-strings/)
-    - [ ] [Milestone 9: Custom Extensions](#)
+    - [x] [Milestone 9: Custom Extensions](/milestones/m09.custom-extensions/)
 10. **Core Motion and Core Graphics**
     - [ ] [Project 25: Selfie Share](#)
     - [ ] [Project 26: Marble Maze](#)
