@@ -47,7 +47,7 @@
     - [x] [Project 24: Swift Strings](/projects/p24.swift-strings/)
     - [x] [Milestone 9: Custom Extensions](/milestones/m09.custom-extensions/)
 10. **Core Motion and Core Graphics**
-    - [ ] [Project 25: Selfie Share](#)
+    - [x] [Project 25: Selfie Share](/projects/p25.selfie-share/)
     - [ ] [Project 26: Marble Maze](#)
     - [ ] [Project 27: Core Graphics](#)
     - [ ] [Milestone 10: Meme Generator](#)
