@@ -44,7 +44,7 @@
 9. **Beacons and Extensions**
     - [x] [Project 22: Detect-a-Beacon](/projects/p22.detect-a-beacon/)
     - [x] [Project 23: Swifty Ninja](/projects/p23.swifty-ninja/)
-    - [ ] [Project 24: Swift Strings](#)
+    - [x] [Project 24: Swift Strings](/projects/p24.swift-strings/)
     - [ ] [Milestone 9: Custom Extensions](#)
 10. **Core Motion and Core Graphics**
     - [ ] [Project 25: Selfie Share](#)
