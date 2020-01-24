@@ -48,7 +48,7 @@
     - [x] [Milestone 9: Custom Extensions](/milestones/m09.custom-extensions/)
 10. **Core Motion and Core Graphics**
     - [x] [Project 25: Selfie Share](/projects/p25.selfie-share/)
-    - [ ] [Project 26: Marble Maze](#)
+    - [x] [Project 26: Marble Maze](/projects/p26.marble-maze/)
     - [ ] [Project 27: Core Graphics](#)
     - [ ] [Milestone 10: Meme Generator](#)
 11. **Secrets and Explosions**
