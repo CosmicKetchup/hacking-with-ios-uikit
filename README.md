@@ -49,7 +49,7 @@
 10. **Core Motion and Core Graphics**
     - [x] [Project 25: Selfie Share](/projects/p25.selfie-share/)
     - [x] [Project 26: Marble Maze](/projects/p26.marble-maze/)
-    - [ ] [Project 27: Core Graphics](#)
+    - [x] [Project 27: Core Graphics](/projects/p27.core-graphics/)
     - [ ] [Milestone 10: Meme Generator](#)
 11. **Secrets and Explosions**
     - [ ] [Project 28: Secret Swift](#)
