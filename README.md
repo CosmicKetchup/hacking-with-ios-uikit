@@ -50,7 +50,7 @@
     - [x] [Project 25: Selfie Share](/projects/p25.selfie-share/)
     - [x] [Project 26: Marble Maze](/projects/p26.marble-maze/)
     - [x] [Project 27: Core Graphics](/projects/p27.core-graphics/)
-    - [ ] [Milestone 10: Meme Generator](#)
+    - [x] [Milestone 10: Meme Generator](/milestones/m10.meme-generator/)
 11. **Secrets and Explosions**
     - [ ] [Project 28: Secret Swift](#)
     - [ ] [Project 29: Exploding Monkeys](#)
