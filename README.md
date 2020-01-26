@@ -52,7 +52,7 @@
     - [x] [Project 27: Core Graphics](/projects/p27.core-graphics/)
     - [x] [Milestone 10: Meme Generator](/milestones/m10.meme-generator/)
 11. **Secrets and Explosions**
-    - [ ] [Project 28: Secret Swift](#)
+    - [x] [Project 28: Secret Swift](/projects/p28.secret-swift/)
     - [ ] [Project 29: Exploding Monkeys](#)
     - [ ] [Project 30: Instruments](#)
     - [ ] [Milestone 11: Matchfinder](#)
