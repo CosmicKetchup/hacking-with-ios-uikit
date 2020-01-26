@@ -53,7 +53,7 @@
     - [x] [Milestone 10: Meme Generator](/milestones/m10.meme-generator/)
 11. **Secrets and Explosions**
     - [x] [Project 28: Secret Swift](/projects/p28.secret-swift/)
-    - [ ] [Project 29: Exploding Monkeys](#)
+    - [x] [Project 29: Exploding Monkeys](/projects/p29.exploding-monkeys/)
     - [ ] [Project 30: Instruments](#)
     - [ ] [Milestone 11: Matchfinder](#)
 12. **Additional Content**
