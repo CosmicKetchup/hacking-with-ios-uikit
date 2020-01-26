@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LocalAuthentication
 
 func documentsDirectory() -> URL {
     FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
@@ -23,18 +24,30 @@ final class PeopleCollectionViewController: UICollectionViewController, UICollec
     }
     
     private var people = [Person]()
-
+    private var isAuthenticated: Bool! {
+        didSet {
+            if isAuthenticated {
+                navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "exclamationmark.shield"), style: .plain, target: self, action: #selector(shieldButtonTapped))
+                navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
+            }
+            else {
+                navigationItem.leftBarButtonItem = nil
+                navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Unlock", style: .plain, target: self, action: #selector(unlockTapped))
+            }
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setupView()
+        isAuthenticated = false
     }
     
     private func setupView() {
         collectionView.register(PersonCell.self, forCellWithReuseIdentifier: PersonCell.reuseIdentifier)
-        navigationItem.title = "Project 10"
-        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
-        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "exclamationmark.shield"), style: .plain, target: self, action: #selector(demoButtonTapped))
         collectionView.backgroundColor = ViewMetrics.backgroundColor
+        
+        navigationItem.title = "Project 10"
         
         guard let layout = collectionViewLayout as? UICollectionViewFlowLayout else { return }
         layout.sectionInset = ViewMetrics.sectionInsets
@@ -53,7 +66,7 @@ final class PeopleCollectionViewController: UICollectionViewController, UICollec
     }
     
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        people.count
+        isAuthenticated ? people.count : 0
     }
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -114,6 +127,28 @@ final class PeopleCollectionViewController: UICollectionViewController, UICollec
 }
 
 extension PeopleCollectionViewController {
+    @objc fileprivate func unlockTapped() {
+        let context = LAContext()
+        var error: NSError?
+        
+        if context.canEvaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, error: &error) {
+            let reason = "Unlock Secret Message"
+            context.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics, localizedReason: reason) { [weak self] (success, authError) in
+                DispatchQueue.main.async {
+                    if success {
+                        self?.isAuthenticated = true
+                        self?.collectionView.reloadData()
+                    }
+                }
+            }
+        }
+        else {
+            let alert = UIAlertController(title: "Authentication Unavailable", message: "Biometric authentication is either\nnot configured or unavailable for this device.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default))
+            present(alert, animated: true)
+        }
+    }
+    
     @objc func addButtonTapped() {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         
@@ -142,12 +177,18 @@ extension PeopleCollectionViewController {
         present(picker, animated: true)
     }
     
-    @objc fileprivate func demoButtonTapped() {
+    @objc fileprivate func shieldButtonTapped() {
         let alert = UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet)
         alert.addAction(UIAlertAction(title: "Load Demo Content", style: .destructive, handler: loadDemoPrompt))
+        alert.addAction(UIAlertAction(title: "Lock", style: .default, handler: lockTapped))
         alert.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         alert.popoverPresentationController?.barButtonItem = navigationItem.leftBarButtonItem
         present(alert, animated: true)
+    }
+    
+    private func lockTapped(action: UIAlertAction) {
+        isAuthenticated = false
+        collectionView.reloadData()
     }
     
     fileprivate func loadDemoPrompt(_ action: UIAlertAction? = nil) {
