@@ -54,7 +54,7 @@
 11. **Secrets and Explosions**
     - [x] [Project 28: Secret Swift](/projects/p28.secret-swift/)
     - [x] [Project 29: Exploding Monkeys](/projects/p29.exploding-monkeys/)
-    - [ ] [Project 30: Instruments](#)
+    - [x] [Project 30: Instruments](/projects/p30.instruments/)
     - [ ] [Milestone 11: Matchfinder](#)
 12. **Additional Content**
     - [ ] [Project 31: Multibrowser](#)
