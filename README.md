@@ -184,3 +184,7 @@
 - `internal` - default; can be used within any source file from defining module
 - `fileprivate` - restricts access to an entity to its own defining source file
 - `private` - restricts access to the enclosing declaration
+
+<hr>
+
+<img src="https://user-images.githubusercontent.com/4438390/73239405-038afa80-416a-11ea-9778-f79127db7839.jpg">
