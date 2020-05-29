@@ -1,7 +1,5 @@
 # Project 12: UserDefaults
 
-[![](https://img.shields.io/badge/Hacking%20with%20iOS-2020.01.31-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.4.1-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.2-FA7343?logo=swift)](#)
-
 ### Personal Notes
 - **Important:** `UserDefaults` is **not** a secure storage solution; any sensitive information should be written to the keychain instead!
 - `NSCoding` is a great way to read and write data when using `UserDefaults`, and is the most common option when you must write **Swift** code that lives alongside **Objective-C** code.

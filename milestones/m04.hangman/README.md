@@ -1,7 +1,5 @@
 # Milestone 4: Hangman
 
-[![](https://img.shields.io/badge/Hacking%20with%20iOS-2020.01.31-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.4.1-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.2-FA7343?logo=swift)](#)
-
 ### Personal Notes
 - added tags to each `strikeLabel` to quickly identify and manipulate the appropriate subview
     - identified using the `viewWithTag(_:)` method

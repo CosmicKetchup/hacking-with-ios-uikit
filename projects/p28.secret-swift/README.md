@@ -1,7 +1,5 @@
 # Project 28: Secret Swift
 
-[![](https://img.shields.io/badge/Hacking%20with%20iOS-2020.01.31-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.4.1-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.2-FA7343?logo=swift)](#)
-
 ### Personal Notes
 - the notification named `UIApplication.willResignActiveNotification` allows you to monitor if/when the app is closed or backgrounded
 
