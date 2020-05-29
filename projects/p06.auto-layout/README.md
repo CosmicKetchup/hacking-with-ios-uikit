@@ -1,7 +1,5 @@
 # Project 6: Auto Layout
 
-[![](https://img.shields.io/badge/Hacking%20with%20iOS-2020.01.31-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.4.1-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.2-FA7343?logo=swift)](#)
-
 ### Personal Notes
 - **VFL** is a rarely-used type of **Auto Layout** where you can visually represent the relative layout of your elements in code using symbols
     - uses dictionaries for view metrics and visual components

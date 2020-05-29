@@ -1,7 +1,5 @@
 # Project 10: Names to Faces
 
-[![](https://img.shields.io/badge/Hacking%20with%20iOS-2020.01.31-36A9AE?logo=gumroad)](https://www.hackingwithswift.com/store/hacking-with-ios) [![](https://img.shields.io/badge/Xcode-11.4.1-3d8af0?logo=xcode)](#) [![](https://img.shields.io/badge/Swift-5.2-FA7343?logo=swift)](#)
-
 ### Personal Notes
 - the `UICollectionViewDelegateFlowLayout` protocol is what allows you to generate a grid layout for collection views
     - available _optional_ methods to define cell size and spacing
