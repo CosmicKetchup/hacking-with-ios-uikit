@@ -58,7 +58,7 @@
     - [x] [Milestone 11: Matchfinder](/milestones/m11.matchfinder/)
 12. **Additional Content**
     - [x] [Project 31: Multibrowser](/projects/p31.multibrowser/)
-    - [ ] [Project 32: SwiftSearcher](#)
+    - [x] [Project 32: SwiftSearcher](/projects/p32.swiftsearcher/)
     - [ ] [Project 33: What's that Whistle?](#)
     - [ ] [Project 34: Four in a Row](#)
     - [ ] [Project 35: Random Numbers](#)
