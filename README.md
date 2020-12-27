@@ -59,7 +59,7 @@
 12. **Additional Content**
     - [x] [Project 31: Multibrowser](/projects/p31.multibrowser/)
     - [x] [Project 32: SwiftSearcher](/projects/p32.swiftsearcher/)
-    - [ ] [Project 33: What's that Whistle?](#)
+    - [x] [Project 33: What's that Whistle?](/projects/p33.whats-that-whistle/)
     - [ ] [Project 34: Four in a Row](#)
     - [ ] [Project 35: Random Numbers](#)
     - [ ] [Project 36: Crashy Plane](#)
