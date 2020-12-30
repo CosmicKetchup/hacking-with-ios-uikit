@@ -61,7 +61,7 @@
     - [x] [Project 32: SwiftSearcher](/projects/p32.swiftsearcher/)
     - [x] [Project 33: What's that Whistle?](/projects/p33.whats-that-whistle/)
     - [x] [Project 34: Four in a Row](/projects/p34.four-in-a-row/)
-    - [ ] [Project 35: Random Numbers](#)
+    - [x] [Project 35: Random Numbers](/projects/p35.random-numbers/)
     - [ ] [Project 36: Crashy Plane](#)
     - [ ] [Project 37: Psychic Tester](#)
     - [ ] [Project 38: GitHub Commits](#)
