@@ -60,7 +60,7 @@
     - [x] [Project 31: Multibrowser](/projects/p31.multibrowser/)
     - [x] [Project 32: SwiftSearcher](/projects/p32.swiftsearcher/)
     - [x] [Project 33: What's that Whistle?](/projects/p33.whats-that-whistle/)
-    - [ ] [Project 34: Four in a Row](#)
+    - [x] [Project 34: Four in a Row](/projects/p34.four-in-a-row/)
     - [ ] [Project 35: Random Numbers](#)
     - [ ] [Project 36: Crashy Plane](#)
     - [ ] [Project 37: Psychic Tester](#)
