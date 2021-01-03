@@ -62,7 +62,7 @@
     - [x] [Project 33: What's that Whistle?](/projects/p33.whats-that-whistle/)
     - [x] [Project 34: Four in a Row](/projects/p34.four-in-a-row/)
     - [x] [Project 35: Random Numbers](/projects/p35.random-numbers/)
-    - [ ] [Project 36: Crashy Plane](#)
+    - [x] [Project 36: Crashy Plane](/projects/p36.crashy-plane/)
     - [ ] [Project 37: Psychic Tester](#)
     - [ ] [Project 38: GitHub Commits](#)
     - [ ] [Project 39: Unit Testing](#)
