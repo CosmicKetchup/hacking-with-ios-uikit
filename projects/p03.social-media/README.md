@@ -10,4 +10,4 @@
 > 3. Go back to [**project 2**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p02.guess-the-flag/) and add a bar button item that shows their score when tapped.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71426430-40e5ff00-2677-11ea-8155-e51783daa9cf.png">
+<img src="https://user-images.githubusercontent.com/4438390/185005041-39c5f121-c932-42da-b81c-1efb663fa45a.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185005070-1ce147d2-0c3b-46fd-8d6e-a1cebe3eb975.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185005126-ba2cb8e3-0ae2-4ff8-9859-6e4c87d1ac0d.png" style="float:left; width: 30%; margin-left: 1%">

@@ -12,4 +12,4 @@
 > 3. Experiment with the HTML – this isn’t a HTML or CSS tutorial, but you can find lots of resources online to give you enough knowledge to tinker with the layout a little.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71550733-182a7600-29a5-11ea-8ff2-f09b432170ad.png">
+<img src="https://user-images.githubusercontent.com/4438390/185152832-cc8acc77-0a5c-4a00-9731-a36717c48c31.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185152880-7f9ee5cc-0a59-4c27-91fa-94821181e435.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185152924-9b6c17ad-09a7-495a-85a6-9c5c092d114d.png" style="float:left; width: 30%; margin-left: 1%">

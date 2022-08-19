@@ -17,4 +17,4 @@
 > 3. Add a button that shows an alert controller listing the names of all devices currently connected to the session – use the `connectedPeers` property of your session to find that information.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73027575-aa396900-3e01-11ea-91c0-26caa29b7c78.png">
+<img src="https://user-images.githubusercontent.com/4438390/185264606-62c49061-98aa-4d6e-9a72-101c5611b5a2.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185264616-16ccd639-9805-48ac-8fdd-b3f92bdfcba8.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185264627-23c3393b-b537-4e77-ad08-74cb02ff7220.png" style="float:left; width: 30%; margin-left: 1%">

@@ -14,4 +14,4 @@
 > 3. Modify [**project 1**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p01.storm-viewer/) so that it uses a collection view controller rather than a table view controller. I recommend you keep a copy of your original table view controller code so you can refer back to it later on.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71624030-75ddde80-2bae-11ea-9584-f9b7a446c674.png">
+<img src="https://user-images.githubusercontent.com/4438390/185703435-45505313-88d7-4f2a-8c88-9432fd2487e9.png">

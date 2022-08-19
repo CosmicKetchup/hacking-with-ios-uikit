@@ -24,7 +24,7 @@ message.
 > Those are just suggestions – it’s your game, so do what you like!
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72535490-9cef0e00-3846-11ea-809b-ee0f555d617c.png">
+<img src="https://user-images.githubusercontent.com/4438390/185701391-3697ce45-2b2f-4be8-9efb-02ba6ab32c9c.png">
 
 ### How to Play
 It's Christmas day and all the neighborhood kids are outside playing in the snow! Some are building forts while others are building snowmen. It's not too long though before the sound of laughter turns into shrieks of terror as a massive snowball fight breaks out!

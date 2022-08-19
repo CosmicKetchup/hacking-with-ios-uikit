@@ -11,4 +11,4 @@
 > This will require you to use the `picker.sourceType = .camera` setting for your image picker controller, create a custom type that stores a filename and a caption, then show the list of saved pictures in a table view. **Remember:** using the camera is only possible on a physical device.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71830179-3282e480-3074-11ea-89b1-25f610b46094.png">
+<img src="https://user-images.githubusercontent.com/4438390/185699001-ac243c9c-e2c9-4776-88f7-6aa7bcc36178.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185699015-1eba6fd3-8547-4eb9-9d4d-b9dcbe203cec.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185699549-5d9a6e0a-6524-447a-b30c-04c891b333e3.png" style="float:left; width: 30%; margin-left: 1%">

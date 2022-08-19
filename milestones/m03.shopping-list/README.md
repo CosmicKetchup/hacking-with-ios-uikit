@@ -15,4 +15,4 @@
 > For bonus points, add a left bar button item that clears the shopping list – what method should be used afterwards to make the table view reload all its data?
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71426393-cddc8880-2676-11ea-9bed-937b0750587c.png">
+<img src="https://user-images.githubusercontent.com/4438390/185696915-c13b60f0-c773-4662-af11-72449517ed07.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185696942-62fd6992-939e-488e-a5f3-993fbf14277f.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185696970-4d4e0f94-40da-4777-89c4-c802bf417049.png" style="float:left; width: 30%; margin-left: 1%">

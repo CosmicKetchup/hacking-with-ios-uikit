@@ -21,4 +21,4 @@
 > 3. Rather than show image names in the detail title bar, show **Picture X of Y**, where **Y** is the total number of images and **X** is the selected picture’s position in the array. Make sure you count from `1` rather than `0`.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71638832-98b4d500-2c38-11ea-97f0-702c80fd98db.png">
+<img src="https://user-images.githubusercontent.com/4438390/184997083-8796be4f-fb0f-4540-ac8e-0ad2b06a596b.png" style="float:left; width: 46%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185000074-726dc345-09a2-42a0-a703-89a56e9dad71.png" style="float:left; width: 46%; margin-left: 1%">

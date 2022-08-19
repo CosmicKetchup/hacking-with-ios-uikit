@@ -12,4 +12,4 @@
 > 3. Use `SKEmitterNode` to create a smoke-like effect when penguins are hit, and a separate mud-like effect when they go into or come out of a hole.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71987339-02664d80-31fc-11ea-85f9-7e70501e3d82.png">
+<img src="https://user-images.githubusercontent.com/4438390/185160230-8448710b-b515-43d1-939d-5c70dbcf926d.png">

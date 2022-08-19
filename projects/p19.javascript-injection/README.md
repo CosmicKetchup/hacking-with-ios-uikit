@@ -10,4 +10,4 @@
 > 3. For something bigger, let users name their scripts, then select one to load using a `UITableView`.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72658046-9a410580-3979-11ea-836d-a4964bd08ebf.png">
+<img src="https://user-images.githubusercontent.com/4438390/185167284-02547fe1-edd0-44e9-bfd8-d23d3a0e362d.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185167739-e6301e20-3d7e-415b-a8dd-4d0fa42c2af8.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185167838-93bdca93-77c4-4506-a922-4a1471cda1ec.png" style="float:left; width: 30%; margin-left: 1%">

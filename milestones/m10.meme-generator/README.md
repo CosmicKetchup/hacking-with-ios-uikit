@@ -20,4 +20,4 @@
 > Both the top and bottom pieces of text should be optional; the user doesn’t need to provide them if they don’t want to.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73116822-f45a4180-3f0a-11ea-9538-296e5ec43c1a.png">
+<img src="https://user-images.githubusercontent.com/4438390/185702726-6050490c-a869-41ab-8a6a-3354b55f431b.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185702755-bbeba868-3697-4c6b-aee6-85c9f6b7a7c7.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185702776-4b608ca5-d4b0-46f3-bd6d-ea6f30788d8f.png" style="float:left; width: 30%; margin-left: 1%">
