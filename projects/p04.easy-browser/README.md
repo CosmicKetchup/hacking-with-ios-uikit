@@ -14,4 +14,4 @@
 > 3. For more of a challenge, try changing the initial view controller to a table view like in [**project 1**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p01.storm-viewer/), where users can choose their website from a list rather than just having the first in the array loaded up front.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71426765-ea7bbf00-267c-11ea-97f0-a4ffb731b976.png">
+<img src="https://user-images.githubusercontent.com/4438390/185145253-faedb950-9fbc-4676-88df-ce413565e6c0.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185145304-dd9a0005-935a-427e-a5dc-52c94b583adf.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185145382-50a96eac-13df-4805-ba8b-86f9a01067d3.png" style="float:left; width: 30%; margin-left: 1%">

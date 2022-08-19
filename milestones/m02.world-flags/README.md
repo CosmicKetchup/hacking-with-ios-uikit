@@ -15,4 +15,4 @@
 > 5. You will need to use `UIActivityViewController` to share your flag.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71431385-83bbcd00-269f-11ea-9418-a7a4adfcec3a.png">
+<img src="https://user-images.githubusercontent.com/4438390/185696102-1a1c0ba2-7860-4c19-867b-0cded77eb85c.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185696202-0b8fc747-9c5b-439b-a58d-fc619078f0a5.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185696245-90294300-1cc0-4510-a9b0-08786432da92.png" style="float:left; width: 30%; margin-left: 1%">

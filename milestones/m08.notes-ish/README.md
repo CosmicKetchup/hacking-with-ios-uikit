@@ -25,4 +25,4 @@
 
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72686833-82c36300-3ac6-11ea-928f-0201e97846d6.png">
+<img src="https://user-images.githubusercontent.com/4438390/185702235-7b5226e2-118c-4c9c-982d-9dc1de45672d.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185702256-1c24fce1-6859-44f2-a5ef-4e7810a3ce17.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185702274-72982555-fee7-4072-8af6-9debc884f79f.png" style="float:left; width: 30%; margin-left: 1%">

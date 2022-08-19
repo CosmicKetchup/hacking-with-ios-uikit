@@ -5,4 +5,4 @@
 - also a good idea to use Auto-Layout constraints that are dependent upon the current `UITraitCollection`
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/82621691-d3001e00-9ba9-11ea-814e-121418fd4b37.png">
+<img src="https://user-images.githubusercontent.com/4438390/185694850-70174c1c-2f64-44b1-9996-1209436ca3bb.png">

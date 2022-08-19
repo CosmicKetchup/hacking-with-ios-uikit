@@ -9,4 +9,4 @@
 > 3. Go back to [**project 10**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p10.names-to-faces/) and add biometric authentication so the user’s pictures are shown only when they have unlocked the app. You’ll need to give some thought to how you can hide the pictures – perhaps leave the array empty until they are authenticated?
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73128628-25388600-3fa0-11ea-933f-afe7c7574dfb.png">
+<img src="https://user-images.githubusercontent.com/4438390/185544758-a2514a44-1459-4fa7-ab40-ded6bbb93908.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185544782-e89bbcdb-a614-43e6-9d32-595e03b5f532.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185544809-ba3ec655-89e0-4184-8d8a-c038b62a8850.png" style="float:left; width: 30%; margin-left: 1%">

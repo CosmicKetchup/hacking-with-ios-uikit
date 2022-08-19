@@ -12,4 +12,4 @@
 > 3. Add a new block type, such as a teleport that moves the player from one teleport point to the other. Add a new letter type in `loadLevel()`, add another collision type to our enum, then see what you can do.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73041977-82f89100-3e2d-11ea-8834-0a588b600443.png">
+<img src="https://user-images.githubusercontent.com/4438390/185500612-ee770960-2772-4abd-b790-4f27a0ea6a0e.png">

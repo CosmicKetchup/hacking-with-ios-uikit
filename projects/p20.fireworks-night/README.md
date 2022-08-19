@@ -11,4 +11,4 @@
 > 3. Use the `waitForDuration` and `removeFromParent` actions in a sequence to make sure explosion particle emitters are removed from the game scene when they are finished.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72668040-82589880-39f0-11ea-97da-ddec302037ea.png">
+<img src="https://user-images.githubusercontent.com/4438390/185241406-92d6c84a-5e6a-4cce-a548-223363c6d7a5.png">

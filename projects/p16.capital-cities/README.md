@@ -9,4 +9,4 @@
 > 3. Modify the callout button so that pressing it shows a new view controller with a web view, taking users to the Wikipedia entry for that city.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72215138-fa98f880-34dc-11ea-9560-53bc1424a448.png">
+<img src="https://user-images.githubusercontent.com/4438390/185703743-f692fd95-47a7-497b-b96c-4eb1f84b18dd.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185703772-690719f0-2dd1-40e2-a250-9b3485ebc2d5.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185703795-af2135a3-4170-4305-bbb0-c454a9dbb963.png" style="float:left; width: 30%; margin-left: 1%">

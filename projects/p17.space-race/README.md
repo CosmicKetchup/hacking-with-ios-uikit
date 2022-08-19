@@ -10,4 +10,4 @@
 > 3. Stop creating space debris after the player has died.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72227850-206edd80-356f-11ea-9c9d-9e4a893cd050.png">
+<img src="https://user-images.githubusercontent.com/4438390/185163128-6ad8131f-0d4e-44f9-a45a-b2fc9d703969.png">

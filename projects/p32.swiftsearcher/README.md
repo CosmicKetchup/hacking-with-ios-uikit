@@ -15,4 +15,4 @@
 - deep-linking is done with the method `application(_:continue:restorationHandler:)` within `AppDelegate.swift`
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/103112682-08c82200-4625-11eb-867a-4a2cea4fedc4.png">
+<img src="https://user-images.githubusercontent.com/4438390/185547320-a0c4b80b-3f49-462e-819b-756469465aeb.png" style="float:left; width: 46%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185547343-9ec87020-2d40-4efa-b5fe-4cf93a4b816a.png" style="float:left; width: 46%; margin-left: 1%">

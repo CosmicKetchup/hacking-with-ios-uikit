@@ -10,4 +10,4 @@
 > 3. Add a _“Game Over”_ sprite node to the game scene when the player loses all their lives.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72900608-35c5d380-3cf6-11ea-8588-6b7292b15d2b.png">
+<img src="https://user-images.githubusercontent.com/4438390/185264030-827ba039-c8e5-4062-8365-44bdc37b04cc.png">

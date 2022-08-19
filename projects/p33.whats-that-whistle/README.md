@@ -15,4 +15,4 @@
 - a _forward reference_ is when a parent object is aware of which child object belongs to it; whereas a _back reference_ mechanism allows the child object to keep track of which parent object it belongs to
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/103179616-dc4a1b00-485b-11eb-8b23-774c559cbbed.png">
+<img src="https://user-images.githubusercontent.com/4438390/185690929-3c2a10f8-2127-45c5-9b5d-7302935e3b46.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185690976-da0c26a2-8547-4c5b-9547-f972a06f6b05.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185691000-c9a77d05-eea8-4cf3-8989-55cf42be8e99.png" style="float:left; width: 30%; margin-left: 1%">

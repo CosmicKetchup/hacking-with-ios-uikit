@@ -14,4 +14,4 @@
 > **Bonus:** Once you’ve done those three, there’s a really subtle bug in our game and I’d like you to try finding and fixing it. To trigger the bug, look for a three-letter word in your starting word, and enter it with an uppercase letter. Once it appears in the table, try entering it again all lowercase – you’ll see it gets entered. Can you figure out what causes this and how to fix it?
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71432057-a6041980-26a4-11ea-829a-c0c049f71f9b.png">
+<img src="https://user-images.githubusercontent.com/4438390/185148496-2934a5c4-2472-41bf-b929-c5ce99488fab.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185148560-0a59a0be-7c19-45c7-a192-57cc2a7d0b33.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185148608-6b6f0f04-a587-4435-bad3-f5b5b086e64d.png" style="float:left; width: 30%; margin-left: 1%">
