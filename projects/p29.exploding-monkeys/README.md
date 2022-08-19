@@ -12,4 +12,4 @@
 > 3. Use the physics world’s gravity to add random wind to each level, making sure to add a label telling players the direction and strength.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73131542-e83db500-3fda-11ea-9502-25b3e24751db.png">
+<img src="https://user-images.githubusercontent.com/4438390/185545631-3b9ed1c5-ffd8-417a-bb3a-664a3c9a5830.png">

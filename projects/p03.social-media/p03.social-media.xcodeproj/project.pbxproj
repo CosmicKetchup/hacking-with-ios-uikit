@@ -81,8 +81,8 @@
 				B9E1278E2347B95300438C15 /* Assets.xcassets */,
 				B9E127852347B95100438C15 /* AppDelegate.swift */,
 				B9E127872347B95100438C15 /* SceneDelegate.swift */,
-				B9E1279E234821C700438C15 /* Content */,
 				B9E1279B2347B9DB00438C15 /* Classes */,
+				B9E1279E234821C700438C15 /* Content */,
 			);
 			path = "p03.social-media";
 			sourceTree = "<group>";

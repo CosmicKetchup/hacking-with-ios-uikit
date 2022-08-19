@@ -21,4 +21,4 @@
 > Don’t under-estimate this challenge! To make it work you’re going to need to draw on a wide variety of skills, and it will push you. That’s the point, though, so take your time and give yourself space to think.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/73238103-bad14280-4165-11ea-9db9-0a27eb742830.png">
+<img src="https://user-images.githubusercontent.com/4438390/185703055-833c9f02-3ac8-4179-a396-83a11cd639de.png">

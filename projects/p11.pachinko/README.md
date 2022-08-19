@@ -20,4 +20,4 @@
 > 3. Give players a limit of five balls, then remove obstacle boxes when they are hit. Can they clear all the pins with just five balls? You could make it so that landing on a green slot gets them an extra ball.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71634423-efdf8900-2be9-11ea-84d1-ad01c5da7163.png">
+<img src="https://user-images.githubusercontent.com/4438390/185157722-f480ff66-f395-4cbe-8bc7-1ee9978967a8.png">

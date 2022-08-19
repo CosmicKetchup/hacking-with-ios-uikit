@@ -6,4 +6,4 @@
 
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/103329955-4239cc80-4a2d-11eb-9a31-feca836604d2.png">
+<img src="https://user-images.githubusercontent.com/4438390/185694257-1af8c770-b4ae-4885-bea2-3b6ca605eaa4.png">

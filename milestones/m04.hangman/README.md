@@ -23,4 +23,4 @@ availableWords = contents
 > That’s the game: can you make it? Don’t underestimate this one: it’s called a challenge for a reason – it’s supposed to stretch you!
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71634816-37b3df80-2bed-11ea-9e85-8e6c32dddb65.png">
+<img src="https://user-images.githubusercontent.com/4438390/185697248-fd3f356f-04cf-47f1-8c70-8cd033689965.png">

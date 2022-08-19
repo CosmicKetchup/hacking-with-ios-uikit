@@ -10,4 +10,4 @@
 > 3. And for an even harder challenge, update [**project 2**](https://github.com/seventhaxis/hacking-with-ios/tree/master/projects/p02.guess-the-flag/) so that it reminds players to come back and play every day. This means scheduling a week of notifications ahead of time, each of which launch the app. When the app is finally launched, make sure you call `removeAllPendingNotificationRequests()` to clear any un-shown alerts, then make new alerts for future days.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72671465-b1830000-3a18-11ea-8434-524f74a93c69.png">
+<img src="https://user-images.githubusercontent.com/4438390/185242701-c6689618-340e-4c9b-ad82-d18b207d599f.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185242737-2782ecdc-7c6e-4d17-8ffa-a27b52f5bb66.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185242781-ddab5f1a-afbe-4e7f-a02f-eb77d7aa82b9.png" style="float:left; width: 30%; margin-left: 1%">

@@ -14,4 +14,4 @@
 > 3. When someone chooses the wrong flag, tell them their mistake in your alert message – something like _“Wrong! That’s the flag of France.”_ for example.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/71649269-26490100-2cdb-11ea-9f83-5b912bad870e.png">
+<img src="https://user-images.githubusercontent.com/4438390/185001397-3870017f-647a-410f-be05-994559e49f2f.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185001495-a5e23be8-c7a8-4cdf-ba69-c0aa1ea12c04.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185001558-7facb53b-d92e-42ac-9426-48b8075e7966.png" style="float:left; width: 30%; margin-left: 1%">

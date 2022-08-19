@@ -14,4 +14,4 @@
 > 3. Add a circle to your view, then use animation to scale it up and down depending on the distance from the beacon – try `0.001` for unknown, `0.25` for far, `0.5` for near, and `1.0` for immediate. You can make the circle by adding an image, or by creating a view that’s `256` wide by `256` high then setting its `layer.cornerRadius` to `128` so that it’s round.
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72777571-1e96c100-3be4-11ea-8a4a-79aaca2730f6.png">
+<img src="https://user-images.githubusercontent.com/4438390/185263626-4f8ff1ff-9fd0-41aa-93b2-29fe0862f3b5.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185263714-35062004-380e-4691-b30c-fbeef6e46669.png" style="float:left; width: 30%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185263732-a202440e-36d3-41e8-a139-68550c57f241.png" style="float:left; width: 30%; margin-left: 1%">

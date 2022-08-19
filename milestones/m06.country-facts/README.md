@@ -14,4 +14,4 @@
 > How you load data into the app is going to be an interesting problem for you to solve. I suggested project 7 above because a sensible approach would be to create a JSON file with your facts in, then load that in using `contentsOf` and parse it using `Codable`. Regardless of how you end up solving this, I suggest you don’t just hard-code it into the app – i.e. typing all the facts manually into your Swift code. You’re better than that!
 
 ### Solution Preview
-<img src="https://user-images.githubusercontent.com/4438390/72212536-002a1a80-34ac-11ea-8f5a-f7eb25fc860b.png">
+<img src="https://user-images.githubusercontent.com/4438390/185700739-782c2c98-1e11-49d0-94e5-1933502894ce.png" style="float:left; width: 46%; margin-left: 1%"><img src="https://user-images.githubusercontent.com/4438390/185700837-f61cd9df-eccc-44e0-a2e8-5f16bcfd1f40.png" style="float:left; width: 46%; margin-left: 1%">

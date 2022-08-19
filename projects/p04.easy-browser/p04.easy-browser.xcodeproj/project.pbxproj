@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AD18591E234AAA7500E173FE /* WebsiteTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18591D234AAA7500E173FE /* WebsiteTableTableViewController.swift */; };
+		AD18591E234AAA7500E173FE /* WebsiteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18591D234AAA7500E173FE /* WebsiteTableViewController.swift */; };
 		AD185920234AAA9C00E173FE /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD18591F234AAA9C00E173FE /* Website.swift */; };
 		AD6C8414234A6D3000FB1B96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C8413234A6D3000FB1B96 /* AppDelegate.swift */; };
 		AD6C8416234A6D3000FB1B96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD6C8415234A6D3000FB1B96 /* SceneDelegate.swift */; };
@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AD18591D234AAA7500E173FE /* WebsiteTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteTableTableViewController.swift; sourceTree = "<group>"; };
+		AD18591D234AAA7500E173FE /* WebsiteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteTableViewController.swift; sourceTree = "<group>"; };
 		AD18591F234AAA9C00E173FE /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
 		AD6C8410234A6D3000FB1B96 /* p04.easy-browser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "p04.easy-browser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD6C8413234A6D3000FB1B96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,7 +73,7 @@
 			children = (
 				AD18591F234AAA9C00E173FE /* Website.swift */,
 				AD6C8417234A6D3000FB1B96 /* BrowserViewController.swift */,
-				AD18591D234AAA7500E173FE /* WebsiteTableTableViewController.swift */,
+				AD18591D234AAA7500E173FE /* WebsiteTableViewController.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -151,7 +151,7 @@
 				AD6C8418234A6D3000FB1B96 /* BrowserViewController.swift in Sources */,
 				AD6C8414234A6D3000FB1B96 /* AppDelegate.swift in Sources */,
 				AD185920234AAA9C00E173FE /* Website.swift in Sources */,
-				AD18591E234AAA7500E173FE /* WebsiteTableTableViewController.swift in Sources */,
+				AD18591E234AAA7500E173FE /* WebsiteTableViewController.swift in Sources */,
 				AD6C8416234A6D3000FB1B96 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
